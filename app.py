@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get('/')
 def index():
-    return {'hello': 'world'}
+    return {'hello': 'world123'}
 
 @app.get('/alert', response_class=HTMLResponse)
 def read_root():
